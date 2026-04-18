@@ -1,6 +1,6 @@
 # Fundamental Concepts of Conditionals
 
-### 1. Compare variables and Comparison operator
+## 1. Compare variables and Comparison operator
 
 Comparison operators are used to compare two values and return a boolean result (true or false). They are essential for making decisions in code.
 
@@ -31,7 +31,7 @@ console.log(a < 10); // true
 
 **Interview Tip:** Always prefer `===` and `!==` over `==` and `!=` to avoid unexpected type coercion issues.
 
-### 2. Introduction to Conditionals
+## 2. Introduction to Conditionals
 
 Conditionals allow your program to make decisions and execute different code paths based on certain conditions. They evaluate expressions that result in boolean values.
 
@@ -50,7 +50,7 @@ if (condition) {
 }
 ```
 
-### 3. If_else statement (visualization)
+## 3. If_else statement (visualization)
 
 The if-else statement provides two paths: one for when the condition is true, and another for when it's false.
 
@@ -83,7 +83,7 @@ if (age >= 18) {
 }
 ```
 
-### 4. Conditional branching if Else Condition
+## 4. Conditional branching if Else Condition
 
 Conditional branching refers to the ability to execute different blocks of code based on multiple conditions. The if-else structure allows for branching logic.
 
@@ -102,7 +102,7 @@ if (score >= 90) {
 }
 ```
 
-### 5. Multiple condition Logical Operators(&&, ||)
+## 5. Multiple condition Logical Operators(&&, ||)
 
 Logical operators combine multiple conditions:
 
@@ -141,7 +141,7 @@ if (age < 18 || !hasLicense) {
 }
 ```
 
-### 6. Multi level If-else if-else condition
+## 6. Multi level If-else if-else condition
 
 Multi-level if-else if-else chains allow checking multiple conditions in sequence. The first true condition's block executes.
 
@@ -174,7 +174,7 @@ if (temperature > 90) {
 }
 ```
 
-### 7. Nested if-else condition
+## 7. Nested if-else condition
 
 Nested if-else statements are if-else structures inside other if-else blocks. They allow for complex decision trees.
 
@@ -197,7 +197,7 @@ if (age >= 18) {
 
 **Interview Tip:** Avoid deep nesting (>3 levels) as it reduces readability. Consider using early returns or switch statements.
 
-### 8. If-else shorthand Ternary Operator
+## 8. If-else shorthand Ternary Operator
 
 The ternary operator is a shorthand for simple if-else statements. It returns a value based on a condition.
 
@@ -219,7 +219,7 @@ let max = a > b ? a : b;
 
 **Interview Tip:** Use ternary for simple assignments. Avoid complex expressions or side effects in ternary operators.
 
-### 9. Logical Not Operator
+## 9. Logical Not Operator
 
 The logical NOT operator (`!`) negates a boolean value. It converts truthy values to false and falsy values to true.
 
