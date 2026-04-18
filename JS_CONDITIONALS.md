@@ -1,7 +1,5 @@
 # Fundamental Concepts of Conditionals
 
-## Explore & explain in detail these topics with AI:
-
 ### 1. Compare variables and Comparison operator
 
 Comparison operators are used to compare two values and return a boolean result (true or false). They are essential for making decisions in code.
