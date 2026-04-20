@@ -57,7 +57,7 @@ console.log("a !== c:", a !== c); // true
 // String comparisons
 let str1 = "apple";
 let str2 = "banana";
-console.log("str1 < str2:", str1 < str2); // true (lexicographical order)
+console.log("str1 < str2:", str1 < str2);
 
 // Boolean comparisons
 let bool1 = true;
